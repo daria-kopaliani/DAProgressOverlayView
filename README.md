@@ -1,4 +1,7 @@
 DAProgressOverlayView
 =====================
 
-A UIView subclass that can be used as an overlay for images to display download progress. Looks similarly to springboard icons of apps being downloaded in iOS 7
+A UIView subclass displaying download progress. Looks similarly to springboard icons of apps being downloaded in iOS 7.
+
+![Alt text](DAProgressOverlayView.gif)
+
