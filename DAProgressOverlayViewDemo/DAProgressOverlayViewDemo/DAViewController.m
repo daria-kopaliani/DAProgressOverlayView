@@ -29,13 +29,12 @@
     [super viewDidLoad];
     self.imageView.layer.masksToBounds = YES;
     self.imageView.layer.cornerRadius = 35.;
-    self.progressOverlayView = [[DAProgressOverlayView alloc] initWithFrame:self.imageView.bounds];
-    [self.imageView addSubview:self.progressOverlayView];
-
 }
 
 - (IBAction)downloadButtonTapped:(id)sender
 {
+    self.progressOverlayView = [[DAProgressOverlayView alloc] initWithFrame:self.imageView.bounds];
+    [self.imageView addSubview:self.progressOverlayView];
     self.downloadButton.enabled = NO;
     [self.downloadButton setTitle:@"Downloading..." forState:UIControlStateNormal];
     [self.progressOverlayView displayOperationWillTriggerAnimation];
