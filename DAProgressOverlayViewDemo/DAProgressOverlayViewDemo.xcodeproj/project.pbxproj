@@ -479,6 +479,7 @@
 				436C6BAA17AAB275009CC36C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436C6BAB17AAB275009CC36C /* Build configuration list for PBXNativeTarget "DAProgressOverlayViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				436C6BAD17AAB275009CC36C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
